@@ -9,6 +9,21 @@ const Project = () => {
       <p className="mt-8 text-red-400 lg:hidden">scroll left 👇🏼</p>
       <div className="mt-2 lg:mt-[138px] flex lg:flex-wrap gap-4 lg:gap-12 lg:justify-center lg:overscroll-none overflow-scroll no-scrollbar">
         <ProjectCard 
+          title="Pupuk Konci" 
+          description="Landing page of Pupuk Konci"
+          linkPreview="https://pupukkonci.com/"
+          stack="Alpine JS, TailwindCSS"
+          poster="./assets/projects/pupuk-konci.jpg"
+          linkCode="https://github.com/obipranata/pupuk-konci"
+        />
+        <ProjectCard 
+          title="SaCode Group Chat" 
+          description="Build simple group chat"
+          stack="TALL (TailwindCSS, Alpine JS, Livewire, Laravel)"
+          poster="./assets/projects/group-chat.png"
+          linkCode="https://github.com/obipranata/group-chat-app-livewire"
+        />
+        <ProjectCard 
           title="Company Profile KPID PAPUA" 
           description="Website company profile of Komisi Penyiaran Indonesia Daerah Papua"
           linkPreview="https://kpid.papua.go.id/"
@@ -22,13 +37,6 @@ const Project = () => {
           stack="React JS, TailwindCSS"
           poster="./assets/projects/risu.png"
           linkCode="https://github.com/obipranata/risu-cafe"
-        />
-        <ProjectCard 
-          title="SaCode Group Chat" 
-          description="Build simple group chat"
-          stack="TALL (TailwindCSS, Alpine JS, Livewire, Laravel)"
-          poster="./assets/projects/group-chat.png"
-          linkCode="https://github.com/obipranata/group-chat-app-livewire"
         />
       </div>
     </div>
