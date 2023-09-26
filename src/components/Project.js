@@ -24,6 +24,14 @@ const Project = () => {
           linkCode="https://github.com/obipranata/group-chat-app-livewire"
         />
         <ProjectCard 
+          title="Obito Chatbot" 
+          description="Simple chatbot using OpenAI API"
+          linkPreview="https://obipranata.github.io/obito-chatBot/"
+          stack="React JS, TailwindCSS, OpenAI API"
+          poster="./assets/projects/chatbot.png"
+          linkCode="https://github.com/obipranata/obito-chatBot"
+        />
+        <ProjectCard 
           title="Company Profile KPID PAPUA" 
           description="Website company profile of Komisi Penyiaran Indonesia Daerah Papua"
           linkPreview="https://kpid.papua.go.id/"
